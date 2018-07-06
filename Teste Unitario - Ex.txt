@@ -1,0 +1,22 @@
+TDD = Test Development Driven
+Public void Add(Num1, num2)
+	return result
+
+Public void AddTest
+	//Prepara
+	Num1 = 2
+	Num2 = 5
+	ResultadoEsperado = 7
+	//Executa
+	ResultadoFuncao = Add(Num1, Num2)
+	//Valida
+	If (Resultadoesperado == ResultadoFuncao)
+		Print "Passou"
+	Else
+		Print "Falhou"
+	Resultadoesperado = 7
+	//Executa
+	ResultadoFuncao = Add(Num1, Num2)
+	//Valida
+	If (ResultadoEsperado == ResultadoFuncao)
+		Print "Passou"
